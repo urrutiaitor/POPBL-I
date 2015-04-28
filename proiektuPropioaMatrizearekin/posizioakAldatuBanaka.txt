@@ -1,0 +1,88 @@
+//posizioak aldatu banaka
+		batura = 0;
+		if (posizioGorria.inertziaX != 0){
+			batura = posizioGorria.inertziaX;	
+			if (posizioGorria.inertziaY != 0){
+				batura = batura*posizioGorria.inertziaY;
+			}
+			if (posizioGorria.inertziaX != 0){
+				batura = batura*posizioUrdina.inertziaX;
+			}
+			if (posizioGorria.inertziaX != 0){
+				batura = batura*posizioUrdina.inertziaY;
+			}
+		}
+		if (posizioGorria.inertziaY != 0){
+			batura = posizioGorria.inertziaY;
+			if (posizioGorria.inertziaX != 0){
+				batura = batura*posizioGorria.inertziaX;
+			}
+			if (posizioGorria.inertziaX != 0){
+				batura = batura*posizioUrdina.inertziaX;
+			}
+			if (posizioGorria.inertziaX != 0){
+				batura = batura*posizioUrdina.inertziaY;
+			}
+		}
+		if (posizioUrdina.inertziaX != 0){
+			batura = posizioUrdina.inertziaX;
+			if (posizioGorria.inertziaX != 0){
+				batura = posizioGorria.inertziaX;
+			}
+			if (posizioGorria.inertziaY != 0){
+				batura = batura*posizioGorria.inertziaY;
+			}
+			if (posizioGorria.inertziaX != 0){
+				batura = batura*posizioUrdina.inertziaY;
+			}
+		}
+		if (posizioUrdina.inertziaY != 0){
+			batura = posizioUrdina.inertziaY;
+			if (posizioGorria.inertziaX != 0){
+				batura = posizioGorria.inertziaX;
+			}
+			if (posizioGorria.inertziaY != 0){
+				batura = batura*posizioGorria.inertziaY;
+			}
+			if (posizioGorria.inertziaX != 0){
+				batura = batura*posizioUrdina.inertziaX;
+			}
+		}
+	
+
+		if (batura>0){
+			i = 1;
+			do{
+
+				posizioInizialaGorria = posizioGorria;
+				posizioInizialaUrdina = posizioUrdina;
+
+
+				if ((i%posizioGorria.inertziaY) == 0){
+					if ((i%posizioUrdina.inertziaX) == 0){
+						if ((i%posizioUrdina.inertziaY) == 0){
+							posizioGorria.x = posizioGorria.x + posizioGorria.inertziaX;
+						}
+					}
+				}
+				if ((i%posizioGorria.inertziaX) == 0){
+					if ((i%posizioUrdina.inertziaX) == 0){
+						if ((i%posizioUrdina.inertziaY) == 0){
+							posizioGorria.y = posizioGorria.y + posizioGorria.inertziaY;
+						}
+					}
+				}
+				if ((i%posizioGorria.inertziaX) == 0){
+					if ((i%posizioGorria.inertziaY) == 0){
+						if ((i%posizioUrdina.inertziaY) == 0){
+							posizioUrdina.x = posizioUrdina.x + posizioUrdina.inertziaX;
+						}
+					}
+				}
+				if ((i%posizioGorria.inertziaX) == 0){
+					if ((i%posizioGorria.inertziaY) == 0){
+						if ((i%posizioUrdina.inertziaX) == 0){
+							posizioGorria.y = posizioGorria.y + posizioGorria.inertziaY;
+						}
+					}
+				}

@@ -1,0 +1,33 @@
+﻿Compilación iniciada a las 08/01/2014 10:35:40.
+     1>Proyecto "C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\ikasteko_probak\JOKOAK_VS2012\froga\froga.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\inlcudes\ /I.\inlcudes\SDL /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\bukaera.c src\errealitateFisikoa.c src\jokoa.c src\nagusia.c src\sarrera.c src\sistemaGrafikoa.c
+         bukaera.c
+         errealitateFisikoa.c
+         jokoa.c
+         nagusia.c
+         sarrera.c
+         sistemaGrafikoa.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\ikasteko_probak\JOKOAK_VS2012\froga\Release\froga.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\lib SDL.lib SDL_ttf.lib SDLmain.lib libGrafikak.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\ikasteko_probak\JOKOAK_VS2012\froga\Release\froga.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\ikasteko_probak\JOKOAK_VS2012\froga\Release\froga.lib" /MACHINE:X86 /SAFESEH Release\bukaera.obj
+         Release\errealitateFisikoa.obj
+         Release\jokoa.obj
+         Release\nagusia.obj
+         Release\sarrera.obj
+         Release\sistemaGrafikoa.obj
+     1>libGrafikak.lib(graphics.obj) : warning LNK4075: se omite '/EDITANDCONTINUE' debido a la especificación '/OPT:ICF'
+     1>LINK : warning LNK4098: la biblioteca predeterminada'MSVCRTD' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+         Generando código
+         Generación de código finalizada
+     1>libGrafikak.lib(ebentoak.obj) : warning LNK4099: no se encontró PDB 'vc110.pdb' con 'libGrafikak.lib(ebentoak.obj)' o en 'C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\ikasteko_probak\JOKOAK_VS2012\froga\Release\vc110.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libGrafikak.lib(graphics.obj) : warning LNK4099: no se encontró PDB 'vc110.pdb' con 'libGrafikak.lib(graphics.obj)' o en 'C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\ikasteko_probak\JOKOAK_VS2012\froga\Release\vc110.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libGrafikak.lib(imagen.obj) : warning LNK4099: no se encontró PDB 'vc110.pdb' con 'libGrafikak.lib(imagen.obj)' o en 'C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\ikasteko_probak\JOKOAK_VS2012\froga\Release\vc110.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libGrafikak.lib(sagua.obj) : warning LNK4099: no se encontró PDB 'vc110.pdb' con 'libGrafikak.lib(sagua.obj)' o en 'C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\ikasteko_probak\JOKOAK_VS2012\froga\Release\vc110.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libGrafikak.lib(soinua.obj) : warning LNK4099: no se encontró PDB 'vc110.pdb' con 'libGrafikak.lib(soinua.obj)' o en 'C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\ikasteko_probak\JOKOAK_VS2012\froga\Release\vc110.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libGrafikak.lib(text.obj) : warning LNK4099: no se encontró PDB 'vc110.pdb' con 'libGrafikak.lib(text.obj)' o en 'C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\ikasteko_probak\JOKOAK_VS2012\froga\Release\vc110.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+         froga.vcxproj -> C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\ikasteko_probak\JOKOAK_VS2012\froga\Release\froga.exe
+     1>Compilación del proyecto terminada "C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\ikasteko_probak\JOKOAK_VS2012\froga\froga.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:02.56

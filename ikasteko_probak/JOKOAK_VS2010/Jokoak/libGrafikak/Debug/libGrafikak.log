@@ -1,0 +1,43 @@
+﻿Build started 20/12/2012 10:53:20.
+Project "C:\Users\Win7\Desktop\JOKOAK_VS2010\Jokoak\libGrafikak\libGrafikak.vcxproj" on node 2 (rebuild target(s)).
+_PrepareForClean:
+  Deleting file "Debug\libGrafikak.lastbuildstate".
+InitializeBuildStatus:
+  Touching "Debug\libGrafikak.unsuccessfulbuild".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\include\SDL /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt src\ebentoak.c src\graphics.c src\imagen.c src\sagua.c src\soinua.c src\text.c
+  text.c
+  soinua.c
+c:\users\win7\desktop\jokoak_vs2010\jokoak\libgrafikak\src\soinua.c(14): warning C4018: '>' : signed/unsigned mismatch
+c:\users\win7\desktop\jokoak_vs2010\jokoak\libgrafikak\src\soinua.c(67): warning C4033: 'playAudio' must return a value
+c:\users\win7\desktop\jokoak_vs2010\jokoak\libgrafikak\src\soinua.c(72): warning C4033: 'playAudio' must return a value
+  sagua.c
+  imagen.c
+c:\users\win7\desktop\jokoak_vs2010\jokoak\libgrafikak\src\imagen.h(7): warning C4005: 'PUB_GRAPHICS' : macro redefinition
+          c:\users\win7\desktop\jokoak_vs2010\jokoak\libgrafikak\src\graphics.h(2) : see previous definition of 'PUB_GRAPHICS'
+  graphics.c
+c:\users\win7\desktop\jokoak_vs2010\jokoak\libgrafikak\src\graphics.h(4): warning C4005: 'PUB_GRAPHICS' : macro redefinition
+          c:\users\win7\desktop\jokoak_vs2010\jokoak\libgrafikak\src\imagen.h(5) : see previous definition of 'PUB_GRAPHICS'
+  ebentoak.c
+  Generating Code...
+c:\users\win7\desktop\jokoak_vs2010\jokoak\libgrafikak\src\graphics.c(81): warning C4716: 'dibujaImagen' : must return a value
+c:\users\win7\desktop\jokoak_vs2010\jokoak\libgrafikak\src\graphics.c(85): warning C4716: 'borraCopiaPantalla' : must return a value
+c:\users\win7\desktop\jokoak_vs2010\jokoak\libgrafikak\src\soinua.c(99): warning C4715: 'playAudio' : not all control paths return a value
+Lib:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Win7\Desktop\JOKOAK_VS2010\Jokoak\Debug\libGrafikak.lib" SDL.lib SDL_ttf.lib SDLmain.lib /LIBPATH:.\lib /NOLOGO Debug\ebentoak.obj
+  Debug\graphics.obj
+  Debug\imagen.obj
+  Debug\sagua.obj
+  Debug\soinua.obj
+  Debug\text.obj
+SDL_ttf.lib(SDL_ttf.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL.lib(SDL.dll); second definition ignored
+SDL_ttf.lib(SDL_ttf.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  libGrafikak.vcxproj -> C:\Users\Win7\Desktop\JOKOAK_VS2010\Jokoak\Debug\libGrafikak.lib
+FinalizeBuildStatus:
+  Deleting file "Debug\libGrafikak.unsuccessfulbuild".
+  Touching "Debug\libGrafikak.lastbuildstate".
+Done Building Project "C:\Users\Win7\Desktop\JOKOAK_VS2010\Jokoak\libGrafikak\libGrafikak.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.66

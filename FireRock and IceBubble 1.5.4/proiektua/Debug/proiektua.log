@@ -1,0 +1,47 @@
+﻿Compilación iniciada a las 19/01/2014 18:44:25.
+     1>Proyecto "C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.5.4\proiektua\proiektua.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\inlcudes /I.\inlcudes\SDL /I"C:\Users\Ane\Desktop\PROIEKTUA ONA\proiektua\proiektua\inlcudes" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\Pantaila2.c src\Pantaila3.c src\Pantaila4.c src\Pantaila5.c
+         Pantaila5.c
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.4\proiektua\src\pantaila5.c(94): warning C4013: 'JOKOA_laukiBatMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.4\proiektua\src\pantaila5.c(134): warning C4013: 'JOKOA_ateBatMargotu' sin definir; se supone que extern devuelve como resultado int
+         Pantaila4.c
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.4\proiektua\src\pantaila4.c(83): warning C4098: 'PANTAILA4_nagusia' : función 'void' que devuelve un valor
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.4\proiektua\src\pantaila4.c(96): warning C4013: 'JOKOA_laukiBatMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.4\proiektua\src\pantaila4.c(140): warning C4013: 'JOKOA_ateBatMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.4\proiektua\src\pantaila4.c(149): warning C4013: 'JOKOA_pelotaTxikia' sin definir; se supone que extern devuelve como resultado int
+         Pantaila3.c
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.4\proiektua\src\pantaila3.c(66): warning C4098: 'PANTAILA3_nagusia' : función 'void' que devuelve un valor
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.4\proiektua\src\pantaila3.c(79): warning C4013: 'JOKOA_laukiBatMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.4\proiektua\src\pantaila3.c(122): warning C4013: 'JOKOA_diamanteBatMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.4\proiektua\src\pantaila3.c(129): warning C4013: 'JOKOA_ateBatMargotu' sin definir; se supone que extern devuelve como resultado int
+         Pantaila2.c
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.4\proiektua\src\pantaila2.c(82): warning C4098: 'PANTAILA2_nagusia' : función 'void' que devuelve un valor
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.4\proiektua\src\pantaila2.c(95): warning C4013: 'JOKOA_laukiBatMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.4\proiektua\src\pantaila2.c(134): warning C4013: 'JOKOA_diamanteBatMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.4\proiektua\src\pantaila2.c(141): warning C4013: 'JOKOA_ateBatMargotu' sin definir; se supone que extern devuelve como resultado int
+         Generando código...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.5.4\Debug\proiektua.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Ane\Desktop\PROIEKTUA ONA\proiektua\proiektua\lib" /LIBPATH:.\lib SDL.lib SDL_ttf.lib SDLmain.lib libGrafikak.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.5.4\Debug\proiektua.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.5.4\Debug\proiektua.lib" /MACHINE:X86 Debug\bukaera.obj
+         Debug\errealitateFisikoa.obj
+         Debug\jokoa.obj
+         Debug\mugimenduak.obj
+         Debug\nagusia.obj
+         Debug\Pantaila0.obj
+         Debug\Pantaila1.obj
+         Debug\Pantaila2.obj
+         Debug\Pantaila3.obj
+         Debug\Pantaila4.obj
+         Debug\Pantaila5.obj
+         Debug\sarrera.obj
+         Debug\sistemaGrafikoa.obj
+         lib\libGrafikak.lib
+         SDL.lib
+         SDLmain.lib
+         SDL_ttf.lib
+         proiektua.vcxproj -> C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.5.4\Debug\proiektua.exe
+     1>Compilación del proyecto terminada "C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.5.4\proiektua\proiektua.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:03.16

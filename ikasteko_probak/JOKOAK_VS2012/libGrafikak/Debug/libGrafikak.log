@@ -1,0 +1,36 @@
+﻿Compilación iniciada a las 19/12/2012 23:10:26.
+Proyecto "C:\Users\Win7\Desktop\JOKOAK_VS2012\libGrafikak\libGrafikak.vcxproj" en el nodo 2 (Rebuild destinos).
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\include\SDL /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt src\ebentoak.c src\graphics.c src\imagen.c src\sagua.c src\soinua.c src\text.c
+  text.c
+  soinua.c
+c:\users\win7\desktop\jokoak_vs2012\libgrafikak\src\soinua.c(14): warning C4018: '>' : no coinciden signed/unsigned
+c:\users\win7\desktop\jokoak_vs2012\libgrafikak\src\soinua.c(67): warning C4033: 'playAudio' debe devolver un valor
+c:\users\win7\desktop\jokoak_vs2012\libgrafikak\src\soinua.c(72): warning C4033: 'playAudio' debe devolver un valor
+  sagua.c
+  imagen.c
+c:\users\win7\desktop\jokoak_vs2012\libgrafikak\src\imagen.h(7): warning C4005: 'PUB_GRAPHICS' : redefinición de macro
+          c:\users\win7\desktop\jokoak_vs2012\libgrafikak\src\graphics.h(2) : vea la definición anterior de 'PUB_GRAPHICS'
+  graphics.c
+c:\users\win7\desktop\jokoak_vs2012\libgrafikak\src\graphics.h(4): warning C4005: 'PUB_GRAPHICS' : redefinición de macro
+          c:\users\win7\desktop\jokoak_vs2012\libgrafikak\src\imagen.h(5) : vea la definición anterior de 'PUB_GRAPHICS'
+  ebentoak.c
+  Generando código...
+c:\users\win7\desktop\jokoak_vs2012\libgrafikak\src\graphics.c(81): warning C4716: 'dibujaImagen' : debe devolver un valor
+c:\users\win7\desktop\jokoak_vs2012\libgrafikak\src\graphics.c(85): warning C4716: 'borraCopiaPantalla' : debe devolver un valor
+c:\users\win7\desktop\jokoak_vs2012\libgrafikak\src\soinua.c(99): warning C4715: 'playAudio' : no todas las rutas de acceso de control devuelven un valor
+Lib:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\Win7\Desktop\JOKOAK_VS2012\libGrafikak\Debug\libGrafikak.lib" SDL.lib SDL_ttf.lib SDLmain.lib /LIBPATH:.\lib /NOLOGO Debug\ebentoak.obj
+  Debug\graphics.obj
+  Debug\imagen.obj
+  Debug\sagua.obj
+  Debug\soinua.obj
+  Debug\text.obj
+SDL_ttf.lib(SDL_ttf.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR ya se defini¾ en SDL.lib(SDL.dll); segunda definici¾n omitida
+SDL_ttf.lib(SDL_ttf.dll) : warning LNK4221: Este archivo de objeto no define ning·n sÝmbolo p·blico que no se haya definido previamente, por lo que no se usarß en ninguna vinculaci¾n que utilice esta biblioteca
+  libGrafikak.vcxproj -> C:\Users\Win7\Desktop\JOKOAK_VS2012\libGrafikak\Debug\libGrafikak.lib
+Compilación del proyecto terminada "C:\Users\Win7\Desktop\JOKOAK_VS2012\libGrafikak\libGrafikak.vcxproj" (Rebuild destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:05.81

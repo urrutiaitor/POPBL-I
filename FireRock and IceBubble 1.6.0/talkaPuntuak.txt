@@ -1,0 +1,42 @@
+//kolisioPuntua
+
+		for (ilara = -ERRADIOBOLA; ilara <= ERRADIOBOLA; ilara++){
+			for (zutabea = -ERRADIOBOLA; zutabea <= ERRADIOBOLA; zutabea++){
+				if ((ilara*ilara) + (zutabea*zutabea) <= (ERRADIOBOLA*ERRADIOBOLA)){
+
+					if (ilara>0){
+						objetua = PANTAILA0_pantailakoObjetuakKonprobatu(posizioGorria.x + zutabea, posizioGorria.y + ilara + 1);
+						if (objetua == BELTZA){
+							kolisioPuntuaGorria.x = zutabea;
+							kolisioPuntuaGorria.y = ilara;
+						}
+					}
+
+					if (ilara == 0){
+						if (zutabea<0){
+							objetua = PANTAILA0_pantailakoObjetuakKonprobatu(posizioGorria.x + zutabea - 1, posizioGorria.y + ilara);
+							if (objetua == BELTZA){
+								kolisioPuntuaGorria.x = zutabea;
+								kolisioPuntuaGorria.y = ilara;
+							}
+						}
+						if (zutabea>0){
+							objetua = PANTAILA0_pantailakoObjetuakKonprobatu(posizioGorria.x + zutabea + 1, posizioGorria.y + ilara);
+							if (objetua == BELTZA){
+								kolisioPuntuaGorria.x = zutabea;
+								kolisioPuntuaGorria.y = ilara;
+							}
+						}
+
+						if (ilara < 0){
+							objetua = PANTAILA0_pantailakoObjetuakKonprobatu(posizioGorria.x + zutabea, posizioGorria.y + ilara - 1);
+							if (objetua == BELTZA){
+								kolisioPuntuaGorria.x = zutabea;
+								kolisioPuntuaGorria.y = ilara;
+							}
+						}
+
+					}
+				}
+			}
+		}

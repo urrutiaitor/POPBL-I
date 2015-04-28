@@ -1,0 +1,33 @@
+﻿Compilación iniciada a las 16/01/2014 9:58:52.
+     1>Proyecto "C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.4.1\proiektua\proiektua.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\inlcudes /I.\inlcudes\SDL /I"C:\Users\Ane\Desktop\PROIEKTUA ONA\proiektua\proiektua\inlcudes" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\sarrera.c
+         sarrera.c
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.4.1\proiektua\src\sarrera.c(11): warning C4005: 'PANTAILAKOPURUA' : redefinición de macro
+                 c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.4.1\proiektua\src\orokorrak.h(10) : vea la definición anterior de 'PANTAILAKOPURUA'
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.4.1\proiektua\src\sarrera.c(25): warning C4013: 'JOKOA_pantailaZuriz' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.4.1\proiektua\src\sarrera.c(135): warning C4026: función declarada con lista de parámetros formales
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.4.1\Debug\proiektua.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Ane\Desktop\PROIEKTUA ONA\proiektua\proiektua\lib" /LIBPATH:.\lib SDL.lib SDL_ttf.lib SDLmain.lib libGrafikak.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.4.1\Debug\proiektua.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.4.1\Debug\proiektua.lib" /MACHINE:X86 Debug\bukaera.obj
+         Debug\errealitateFisikoa.obj
+         Debug\jokoa.obj
+         Debug\mugimenduak.obj
+         Debug\nagusia.obj
+         Debug\Pantaila0.obj
+         Debug\Pantaila1.obj
+         Debug\Pantaila2.obj
+         Debug\Pantaila3.obj
+         Debug\Pantaila4.obj
+         Debug\Pantaila5.obj
+         Debug\sarrera.obj
+         Debug\sistemaGrafikoa.obj
+         lib\libGrafikak.lib
+         SDL.lib
+         SDLmain.lib
+         SDL_ttf.lib
+         proiektua.vcxproj -> C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.4.1\Debug\proiektua.exe
+     1>Compilación del proyecto terminada "C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.4.1\proiektua\proiektua.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.32

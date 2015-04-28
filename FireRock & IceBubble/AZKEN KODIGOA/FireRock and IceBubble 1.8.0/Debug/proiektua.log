@@ -1,0 +1,38 @@
+﻿Compilación iniciada a las 23/01/2014 12:24:34.
+     1>Proyecto "E:\AZKEN KODIGOA\FireRock and IceBubble 1.8.0\proiektua.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\inlcudes /I.\inlcudes\SDL /I"C:\Users\Ane\Desktop\PROIEKTUA ONA\proiektua\proiektua\inlcudes" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\sarrera.c
+         sarrera.c
+     1>e:\azken kodigoa\firerock and icebubble 1.8.0\src\sarrera.c(13): warning C4005: 'PANTAILAKOPURUA' : redefinición de macro
+                 e:\azken kodigoa\firerock and icebubble 1.8.0\src\orokorrak.h(10) : vea la definición anterior de 'PANTAILAKOPURUA'
+     1>e:\azken kodigoa\firerock and icebubble 1.8.0\src\sarrera.c(130): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(911) : vea la declaración de '_sleep'
+     1>e:\azken kodigoa\firerock and icebubble 1.8.0\src\sarrera.c(140): warning C4026: función declarada con lista de parámetros formales
+     1>e:\azken kodigoa\firerock and icebubble 1.8.0\src\sarrera.c(175): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(911) : vea la declaración de '_sleep'
+     1>e:\azken kodigoa\firerock and icebubble 1.8.0\src\sarrera.c(207): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : vea la declaración de 'sprintf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\AZKEN KODIGOA\FireRock and IceBubble 1.8.0\Debug\proiektua.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Ane\Desktop\PROIEKTUA ONA\proiektua\proiektua\lib" /LIBPATH:.\lib SDL.lib SDL_ttf.lib SDLmain.lib libGrafikak.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\AZKEN KODIGOA\FireRock and IceBubble 1.8.0\Debug\proiektua.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\AZKEN KODIGOA\FireRock and IceBubble 1.8.0\Debug\proiektua.lib" /MACHINE:X86 Debug\bukaera.obj
+         Debug\errealitateFisikoa.obj
+         Debug\jokoa.obj
+         Debug\mugimenduak.obj
+         Debug\nagusia.obj
+         Debug\Pantaila0.obj
+         Debug\Pantaila1.obj
+         Debug\Pantaila2.obj
+         Debug\Pantaila3.obj
+         Debug\Pantaila4.obj
+         Debug\Pantaila5.obj
+         Debug\sarrera.obj
+         Debug\sistemaGrafikoa.obj
+         lib\libGrafikak.lib
+         SDL.lib
+         SDLmain.lib
+         SDL_ttf.lib
+         proiektua.vcxproj -> E:\AZKEN KODIGOA\FireRock and IceBubble 1.8.0\Debug\proiektua.exe
+     1>Compilación del proyecto terminada "E:\AZKEN KODIGOA\FireRock and IceBubble 1.8.0\proiektua.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:02.19

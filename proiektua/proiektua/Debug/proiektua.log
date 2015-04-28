@@ -1,0 +1,64 @@
+﻿Compilación iniciada a las 09/01/2014 18:22:58.
+     1>Proyecto "F:\proiektua\proiektua\proiektua.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\inlcudes /I.\inlcudes\SDL /I"C:\Users\Ane\Desktop\PROIEKTUA ONA\proiektua\proiektua\inlcudes" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\bukaera.c src\errealitateFisikoa.c src\jokoa.c src\mugimenduak.c src\nagusia.c src\Pantaila0.c src\sarrera.c
+         sarrera.c
+     1>f:\proiektua\proiektua\src\sarrera.c(35): warning C4013: 'JOKOA_pantailaZuriz' sin definir; se supone que extern devuelve como resultado int
+     1>f:\proiektua\proiektua\src\sarrera.c(104): warning C4026: función declarada con lista de parámetros formales
+         Pantaila0.c
+     1>f:\proiektua\proiektua\src\pantaila0.c(57): warning C4013: 'JOKOA_pantailaZuriz' sin definir; se supone que extern devuelve como resultado int
+     1>f:\proiektua\proiektua\src\pantaila0.c(60): warning C4013: 'JOKOA_laukiBatMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>f:\proiektua\proiektua\src\pantaila0.c(88): warning C4028: parámetro formal 1 distinto de la declaración
+     1>f:\proiektua\proiektua\src\pantaila0.c(88): warning C4029: la lista de parámetros formales declarada es distinta de la definición
+         nagusia.c
+     1>f:\proiektua\proiektua\src\nagusia.c(28): warning C4013: 'SARRERA_pantailakAukeratu' sin definir; se supone que extern devuelve como resultado int
+     1>f:\proiektua\proiektua\src\nagusia.c(33): warning C4013: 'PANTAILA0_nagusia' sin definir; se supone que extern devuelve como resultado int
+     1>f:\proiektua\proiektua\src\nagusia.c(77): warning C4013: 'SARRERA_kredituak' sin definir; se supone que extern devuelve como resultado int
+         mugimenduak.c
+         jokoa.c
+     1>f:\proiektua\proiektua\src\jokoa.c(82): warning C4013: 'PANTAILA0_pantailaMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>f:\proiektua\proiektua\src\jokoa.c(152): warning C4098: 'JOKOA_laukiBatMargotu' : función 'void' que devuelve un valor
+         errealitateFisikoa.c
+     1>f:\proiektua\proiektua\src\errealitatefisikoa.c(69): warning C4013: 'PANTAILA0_pantailakoObjetuakKonprobatu' sin definir; se supone que extern devuelve como resultado int
+     1>f:\proiektua\proiektua\src\errealitatefisikoa.c(177): warning C4013: 'JOKOA_zelaiaMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>f:\proiektua\proiektua\src\errealitatefisikoa.c(178): warning C4013: 'JOKOA_zirkuluUrdinaBistaratu' sin definir; se supone que extern devuelve como resultado int
+     1>f:\proiektua\proiektua\src\errealitatefisikoa.c(179): warning C4013: 'JOKOA_zirkuluGorriaBistaratu' sin definir; se supone que extern devuelve como resultado int
+     1>f:\proiektua\proiektua\src\errealitatefisikoa.c(54): warning C4101: 'objetuaUrdina' : variable local sin referencia
+     1>f:\proiektua\proiektua\src\errealitatefisikoa.c(48): warning C4101: 'objetuak' : variable local sin referencia
+     1>f:\proiektua\proiektua\src\errealitatefisikoa.c(38): warning C4101: 'posizioInizialaUrdina' : variable local sin referencia
+     1>f:\proiektua\proiektua\src\errealitatefisikoa.c(37): warning C4101: 'posizioInizialaGorria' : variable local sin referencia
+     1>f:\proiektua\proiektua\src\errealitatefisikoa.c(53): warning C4101: 'objetuaGorria' : variable local sin referencia
+     1>f:\proiektua\proiektua\src\errealitatefisikoa.c(312): warning C4244: '=' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>f:\proiektua\proiektua\src\errealitatefisikoa.c(326): warning C4244: '=' : conversión de 'double' a 'int'; posible pérdida de datos
+         bukaera.c
+         Generando código...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\proiektua\Debug\proiektua.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Ane\Desktop\PROIEKTUA ONA\proiektua\proiektua\lib" /LIBPATH:.\lib SDL.lib SDL_ttf.lib SDLmain.lib libGrafikak.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\proiektua\Debug\proiektua.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\proiektua\Debug\proiektua.lib" /MACHINE:X86 Debug\bukaera.obj
+         Debug\errealitateFisikoa.obj
+         Debug\jokoa.obj
+         Debug\mugimenduak.obj
+         Debug\nagusia.obj
+         Debug\Pantaila0.obj
+         Debug\Pantaila1.obj
+         Debug\Pantaila2.obj
+         Debug\Pantaila3.obj
+         Debug\Pantaila4.obj
+         Debug\Pantaila5.obj
+         Debug\sarrera.obj
+         Debug\sistemaGrafikoa.obj
+         lib\libGrafikak.lib
+         SDL.lib
+         SDLmain.lib
+         SDL_ttf.lib
+     1>libGrafikak.lib(ebentoak.obj) : warning LNK4099: no se encontr¾ PDB 'vc110.pdb' con 'libGrafikak.lib(ebentoak.obj)' o en 'F:\proiektua\Debug\vc110.pdb'; se vincularß el objeto sin tener en cuenta informaci¾n de depuraci¾n
+     1>libGrafikak.lib(graphics.obj) : warning LNK4099: no se encontr¾ PDB 'vc110.pdb' con 'libGrafikak.lib(graphics.obj)' o en 'F:\proiektua\Debug\vc110.pdb'; se vincularß el objeto sin tener en cuenta informaci¾n de depuraci¾n
+     1>libGrafikak.lib(imagen.obj) : warning LNK4099: no se encontr¾ PDB 'vc110.pdb' con 'libGrafikak.lib(imagen.obj)' o en 'F:\proiektua\Debug\vc110.pdb'; se vincularß el objeto sin tener en cuenta informaci¾n de depuraci¾n
+     1>libGrafikak.lib(sagua.obj) : warning LNK4099: no se encontr¾ PDB 'vc110.pdb' con 'libGrafikak.lib(sagua.obj)' o en 'F:\proiektua\Debug\vc110.pdb'; se vincularß el objeto sin tener en cuenta informaci¾n de depuraci¾n
+     1>libGrafikak.lib(soinua.obj) : warning LNK4099: no se encontr¾ PDB 'vc110.pdb' con 'libGrafikak.lib(soinua.obj)' o en 'F:\proiektua\Debug\vc110.pdb'; se vincularß el objeto sin tener en cuenta informaci¾n de depuraci¾n
+     1>libGrafikak.lib(text.obj) : warning LNK4099: no se encontr¾ PDB 'vc110.pdb' con 'libGrafikak.lib(text.obj)' o en 'F:\proiektua\Debug\vc110.pdb'; se vincularß el objeto sin tener en cuenta informaci¾n de depuraci¾n
+         proiektua.vcxproj -> F:\proiektua\Debug\proiektua.exe
+     1>Compilación del proyecto terminada "F:\proiektua\proiektua\proiektua.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:16.25

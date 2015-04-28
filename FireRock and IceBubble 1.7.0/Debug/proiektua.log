@@ -1,0 +1,113 @@
+﻿Compilación iniciada a las 06/05/2014 16:27:26.
+     1>Proyecto "C:\Users\Aitor\SkyDrive\Documentos\MGEP\1\POPBL I\FireRock and IceBubble 1.7.0\proiektua.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\inlcudes /I.\inlcudes\SDL /I"C:\Users\Ane\Desktop\PROIEKTUA ONA\proiektua\proiektua\inlcudes" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\bukaera.c src\errealitateFisikoa.c src\jokoa.c src\mugimenduak.c src\nagusia.c src\Pantaila0.c src\Pantaila1.c src\Pantaila2.c src\Pantaila3.c src\Pantaila4.c src\Pantaila5.c src\sarrera.c src\sistemaGrafikoa.c
+         sistemaGrafikoa.c
+         sarrera.c
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\sarrera.c(11): warning C4005: 'PANTAILAKOPURUA' : redefinición de macro
+                 c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\orokorrak.h(10) : vea la definición anterior de 'PANTAILAKOPURUA'
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\sarrera.c(133): warning C4026: función declarada con lista de parámetros formales
+         Pantaila5.c
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila5.c(94): warning C4013: 'JOKOA_laukiBatMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila5.c(134): warning C4013: 'JOKOA_ateBatMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila5.c(163): warning C4013: 'JOKOA_laukiBatMargotu3D' sin definir; se supone que extern devuelve como resultado int
+         Pantaila4.c
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila4.c(96): warning C4098: 'PANTAILA4_nagusia' : función 'void' que devuelve un valor
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila4.c(109): warning C4013: 'JOKOA_laukiBatMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila4.c(152): warning C4013: 'JOKOA_ateBatMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila4.c(188): warning C4013: 'JOKOA_laukiBatMargotu3D' sin definir; se supone que extern devuelve como resultado int
+         Pantaila3.c
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila3.c(66): warning C4098: 'PANTAILA3_nagusia' : función 'void' que devuelve un valor
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila3.c(79): warning C4013: 'JOKOA_laukiBatMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila3.c(122): warning C4013: 'JOKOA_diamanteBatMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila3.c(129): warning C4013: 'JOKOA_ateBatMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila3.c(150): warning C4013: 'JOKOA_laukiBatMargotu3D' sin definir; se supone que extern devuelve como resultado int
+         Pantaila2.c
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila2.c(82): warning C4098: 'PANTAILA2_nagusia' : función 'void' que devuelve un valor
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila2.c(95): warning C4013: 'JOKOA_laukiBatMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila2.c(134): warning C4013: 'JOKOA_diamanteBatMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila2.c(141): warning C4013: 'JOKOA_ateBatMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila2.c(163): warning C4013: 'JOKOA_laukiBatMargotu3D' sin definir; se supone que extern devuelve como resultado int
+         Pantaila1.c
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila1.c(60): warning C4098: 'PANTAILA1_nagusia' : función 'void' que devuelve un valor
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila1.c(73): warning C4013: 'JOKOA_laukiBatMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila1.c(117): warning C4013: 'JOKOA_ateBatMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila1.c(135): warning C4013: 'JOKOA_laukiBatMargotu3D' sin definir; se supone que extern devuelve como resultado int
+         Pantaila0.c
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila0.c(42): warning C4098: 'PANTAILA0_nagusia' : función 'void' que devuelve un valor
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila0.c(49): warning C4013: 'JOKOA_laukiBatMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila0.c(76): warning C4013: 'JOKOA_ateBatMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\pantaila0.c(85): warning C4013: 'JOKOA_laukiBatMargotu3D' sin definir; se supone que extern devuelve como resultado int
+         nagusia.c
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\nagusia.c(32): warning C4013: 'SARRERA_pantailakAukeratu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\nagusia.c(37): warning C4013: 'PANTAILA0_nagusia' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\nagusia.c(42): warning C4013: 'PANTAILA1_nagusia' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\nagusia.c(47): warning C4013: 'PANTAILA2_nagusia' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\nagusia.c(52): warning C4013: 'PANTAILA3_nagusia' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\nagusia.c(57): warning C4013: 'PANTAILA4_nagusia' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\nagusia.c(63): warning C4013: 'PANTAILA5_nagusia' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\nagusia.c(78): warning C4013: 'SARRERA_kredituak' sin definir; se supone que extern devuelve como resultado int
+         mugimenduak.c
+         jokoa.c
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\jokoa.c(73): warning C4013: 'PANTAILA0_pantailaMargotu3D' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\jokoa.c(74): warning C4013: 'PANTAILA0_pantailaMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\jokoa.c(78): warning C4013: 'PANTAILA1_pantailaMargotu3D' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\jokoa.c(79): warning C4013: 'PANTAILA1_pantailaMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\jokoa.c(83): warning C4013: 'PANTAILA2_pantailaMargotu3D' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\jokoa.c(84): warning C4013: 'PANTAILA2_pantailaMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\jokoa.c(88): warning C4013: 'PANTAILA3_pantailaMargotu3D' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\jokoa.c(89): warning C4013: 'PANTAILA3_pantailaMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\jokoa.c(93): warning C4013: 'PANTAILA4_pantailaMargotu3D' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\jokoa.c(94): warning C4013: 'PANTAILA4_pantailaMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\jokoa.c(98): warning C4013: 'PANTAILA5_pantailaMargotu3D' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\jokoa.c(99): warning C4013: 'PANTAILA5_pantailaMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\jokoa.c(155): warning C4098: 'JOKOA_laukiBatMargotu' : función 'void' que devuelve un valor
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\jokoa.c(176): warning C4098: 'JOKOA_laukiBatMargotu3D' : función 'void' que devuelve un valor
+         errealitateFisikoa.c
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\errealitatefisikoa.c(77): warning C4013: 'JOKOA_zelaiaMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\errealitatefisikoa.c(78): warning C4013: 'JOKOA_zirkuluaBistaratu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\errealitatefisikoa.c(30): warning C4101: 'posizioInizialaUrdina' : variable local sin referencia
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\errealitatefisikoa.c(60): warning C4101: 'bolaGorriaTalkaPuntua' : variable local sin referencia
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\errealitatefisikoa.c(29): warning C4101: 'posizioInizialaGorria' : variable local sin referencia
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\errealitatefisikoa.c(61): warning C4101: 'bolaUrdinaTalkaPuntua' : variable local sin referencia
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\errealitatefisikoa.c(647): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(911) : vea la declaración de '_sleep'
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\errealitatefisikoa.c(662): warning C4013: 'JOKOA_pantailaZuriz' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\errealitatefisikoa.c(701): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(911) : vea la declaración de '_sleep'
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\errealitatefisikoa.c(754): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(911) : vea la declaración de '_sleep'
+         bukaera.c
+         Generando código...
+     1>c:\users\aitor\skydrive\documentos\mgep\1\popbl i\firerock and icebubble 1.7.0\src\bukaera.c(37): warning C4716: 'BUKAERA_menua' : debe devolver un valor
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aitor\SkyDrive\Documentos\MGEP\1\POPBL I\FireRock and IceBubble 1.7.0\Debug\proiektua.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Ane\Desktop\PROIEKTUA ONA\proiektua\proiektua\lib" /LIBPATH:.\lib SDL.lib SDL_ttf.lib SDLmain.lib libGrafikak.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Aitor\SkyDrive\Documentos\MGEP\1\POPBL I\FireRock and IceBubble 1.7.0\Debug\proiektua.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aitor\SkyDrive\Documentos\MGEP\1\POPBL I\FireRock and IceBubble 1.7.0\Debug\proiektua.lib" /MACHINE:X86 Debug\bukaera.obj
+         Debug\errealitateFisikoa.obj
+         Debug\jokoa.obj
+         Debug\mugimenduak.obj
+         Debug\nagusia.obj
+         Debug\Pantaila0.obj
+         Debug\Pantaila1.obj
+         Debug\Pantaila2.obj
+         Debug\Pantaila3.obj
+         Debug\Pantaila4.obj
+         Debug\Pantaila5.obj
+         Debug\sarrera.obj
+         Debug\sistemaGrafikoa.obj
+         lib\libGrafikak.lib
+         SDL.lib
+         SDLmain.lib
+         SDL_ttf.lib
+         LINK : no se encontró C:\Users\Aitor\SkyDrive\Documentos\MGEP\1\POPBL I\FireRock and IceBubble 1.7.0\Debug\proiektua.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
+     1>libGrafikak.lib(ebentoak.obj) : warning LNK4099: no se encontró PDB 'vc110.pdb' con 'libGrafikak.lib(ebentoak.obj)' o en 'C:\Users\Aitor\SkyDrive\Documentos\MGEP\1\POPBL I\FireRock and IceBubble 1.7.0\Debug\vc110.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libGrafikak.lib(graphics.obj) : warning LNK4099: no se encontró PDB 'vc110.pdb' con 'libGrafikak.lib(graphics.obj)' o en 'C:\Users\Aitor\SkyDrive\Documentos\MGEP\1\POPBL I\FireRock and IceBubble 1.7.0\Debug\vc110.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libGrafikak.lib(imagen.obj) : warning LNK4099: no se encontró PDB 'vc110.pdb' con 'libGrafikak.lib(imagen.obj)' o en 'C:\Users\Aitor\SkyDrive\Documentos\MGEP\1\POPBL I\FireRock and IceBubble 1.7.0\Debug\vc110.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libGrafikak.lib(sagua.obj) : warning LNK4099: no se encontró PDB 'vc110.pdb' con 'libGrafikak.lib(sagua.obj)' o en 'C:\Users\Aitor\SkyDrive\Documentos\MGEP\1\POPBL I\FireRock and IceBubble 1.7.0\Debug\vc110.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libGrafikak.lib(soinua.obj) : warning LNK4099: no se encontró PDB 'vc110.pdb' con 'libGrafikak.lib(soinua.obj)' o en 'C:\Users\Aitor\SkyDrive\Documentos\MGEP\1\POPBL I\FireRock and IceBubble 1.7.0\Debug\vc110.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>libGrafikak.lib(text.obj) : warning LNK4099: no se encontró PDB 'vc110.pdb' con 'libGrafikak.lib(text.obj)' o en 'C:\Users\Aitor\SkyDrive\Documentos\MGEP\1\POPBL I\FireRock and IceBubble 1.7.0\Debug\vc110.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+         proiektua.vcxproj -> C:\Users\Aitor\SkyDrive\Documentos\MGEP\1\POPBL I\FireRock and IceBubble 1.7.0\Debug\proiektua.exe
+     1>Compilación del proyecto terminada "C:\Users\Aitor\SkyDrive\Documentos\MGEP\1\POPBL I\FireRock and IceBubble 1.7.0\proiektua.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:06.55

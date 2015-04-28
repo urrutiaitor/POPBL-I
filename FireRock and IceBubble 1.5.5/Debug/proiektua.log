@@ -1,0 +1,44 @@
+﻿Compilación iniciada a las 21/01/2014 13:15:12.
+     1>Proyecto "C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.5.5\proiektua.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\inlcudes /I.\inlcudes\SDL /I"C:\Users\Ane\Desktop\PROIEKTUA ONA\proiektua\proiektua\inlcudes" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\errealitateFisikoa.c
+         errealitateFisikoa.c
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.5\src\errealitatefisikoa.c(74): warning C4013: 'JOKOA_zelaiaMargotu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.5\src\errealitatefisikoa.c(75): warning C4013: 'JOKOA_zirkuluaBistaratu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.5\src\errealitatefisikoa.c(507): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(911) : vea la declaración de '_sleep'
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.5\src\errealitatefisikoa.c(30): warning C4101: 'posizioInizialaUrdina' : variable local sin referencia
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.5\src\errealitatefisikoa.c(57): warning C4101: 'bolaGorriaTalkaPuntua' : variable local sin referencia
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.5\src\errealitatefisikoa.c(29): warning C4101: 'posizioInizialaGorria' : variable local sin referencia
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.5\src\errealitatefisikoa.c(58): warning C4101: 'bolaUrdinaTalkaPuntua' : variable local sin referencia
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.5\src\errealitatefisikoa.c(567): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(911) : vea la declaración de '_sleep'
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.5\src\errealitatefisikoa.c(582): warning C4013: 'JOKOA_pantailaZuriz' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.5\src\errealitatefisikoa.c(621): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(911) : vea la declaración de '_sleep'
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.5.5\src\errealitatefisikoa.c(674): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(911) : vea la declaración de '_sleep'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.5.5\Debug\proiektua.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Ane\Desktop\PROIEKTUA ONA\proiektua\proiektua\lib" /LIBPATH:.\lib SDL.lib SDL_ttf.lib SDLmain.lib libGrafikak.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.5.5\Debug\proiektua.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.5.5\Debug\proiektua.lib" /MACHINE:X86 Debug\bukaera.obj
+         Debug\errealitateFisikoa.obj
+         Debug\jokoa.obj
+         Debug\mugimenduak.obj
+         Debug\nagusia.obj
+         Debug\Pantaila0.obj
+         Debug\Pantaila1.obj
+         Debug\Pantaila2.obj
+         Debug\Pantaila3.obj
+         Debug\Pantaila4.obj
+         Debug\Pantaila5.obj
+         Debug\sarrera.obj
+         Debug\sistemaGrafikoa.obj
+         lib\libGrafikak.lib
+         SDL.lib
+         SDLmain.lib
+         SDL_ttf.lib
+         proiektua.vcxproj -> C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.5.5\Debug\proiektua.exe
+     1>Compilación del proyecto terminada "C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.5.5\proiektua.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.27

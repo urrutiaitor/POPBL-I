@@ -1,0 +1,36 @@
+﻿Compilación iniciada a las 15/01/2014 18:19:50.
+     1>Proyecto "C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.3.1\proiektua\proiektua.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\inlcudes /I.\inlcudes\SDL /I"C:\Users\Ane\Desktop\PROIEKTUA ONA\proiektua\proiektua\inlcudes" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\nagusia.c
+         nagusia.c
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.3.1\proiektua\src\nagusia.c(32): warning C4013: 'SARRERA_pantailakAukeratu' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.3.1\proiektua\src\nagusia.c(37): warning C4013: 'PANTAILA0_nagusia' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.3.1\proiektua\src\nagusia.c(42): warning C4013: 'PANTAILA1_nagusia' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.3.1\proiektua\src\nagusia.c(47): warning C4013: 'PANTAILA2_nagusia' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.3.1\proiektua\src\nagusia.c(52): warning C4013: 'PANTAILA3_nagusia' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.3.1\proiektua\src\nagusia.c(57): warning C4013: 'PANTAILA4_nagusia' sin definir; se supone que extern devuelve como resultado int
+     1>c:\users\aitor\documents\mgep\1. seihilekoa\popbl\firerock and icebubble 1.3.1\proiektua\src\nagusia.c(78): warning C4013: 'SARRERA_kredituak' sin definir; se supone que extern devuelve como resultado int
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.3.1\Debug\proiektua.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Ane\Desktop\PROIEKTUA ONA\proiektua\proiektua\lib" /LIBPATH:.\lib SDL.lib SDL_ttf.lib SDLmain.lib libGrafikak.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.3.1\Debug\proiektua.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.3.1\Debug\proiektua.lib" /MACHINE:X86 Debug\bukaera.obj
+         Debug\errealitateFisikoa.obj
+         Debug\jokoa.obj
+         Debug\mugimenduak.obj
+         Debug\nagusia.obj
+         Debug\Pantaila0.obj
+         Debug\Pantaila1.obj
+         Debug\Pantaila2.obj
+         Debug\Pantaila3.obj
+         Debug\Pantaila4.obj
+         Debug\Pantaila5.obj
+         Debug\sarrera.obj
+         Debug\sistemaGrafikoa.obj
+         lib\libGrafikak.lib
+         SDL.lib
+         SDLmain.lib
+         SDL_ttf.lib
+         proiektua.vcxproj -> C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.3.1\Debug\proiektua.exe
+     1>Compilación del proyecto terminada "C:\Users\Aitor\Documents\MGEP\1. Seihilekoa\POPBL\FireRock and IceBubble 1.3.1\proiektua\proiektua.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.63

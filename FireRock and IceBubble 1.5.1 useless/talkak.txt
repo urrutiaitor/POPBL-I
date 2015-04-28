@@ -1,0 +1,26 @@
+//TALKAK
+		for (ilara = -ERRADIOBOLA; ilara < ERRADIOBOLA; ilara++){
+			for (zutabea = -ERRADIOBOLA; zutabea < ERRADIOBOLA; zutabea++){
+				if ((ilara*ilara) + (zutabea*zutabea) <= (ERRADIOBOLA*ERRADIOBOLA)){
+					objetua = PANTAILA0_pantailakoObjetuakKonprobatu(zutabea + posizioGorria.x, ilara + posizioGorria.y);
+
+					if (objetua == BELTZA){
+						kolisioPuntuaGorria.x = zutabea;
+						kolisioPuntuaGorria.y = ilara;
+					}
+				}
+			}
+		}
+
+		for (ilara = -ERRADIOBOLA; ilara < ERRADIOBOLA; ilara++){
+			for (zutabea = -ERRADIOBOLA; zutabea < ERRADIOBOLA; zutabea++){
+				if ((ilara*ilara) + (zutabea*zutabea) <= (ERRADIOBOLA*ERRADIOBOLA)){
+					objetua = PANTAILA0_pantailakoObjetuakKonprobatu(zutabea + posizioUrdina.x, ilara + posizioUrdina.y);
+
+					if (objetua == BELTZA){
+						kolisioPuntuaUrdina.x = zutabea;
+						kolisioPuntuaUrdina.y = ilara;
+					}
+				}
+			}
+		}
